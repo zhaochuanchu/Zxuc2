@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/bg"
+            android:id="@+id/bgWork"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            />
+
+        <TextView
+            android:text="请选择打工的时间"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="90dp"
+            android:textColor="@color/textView2"
+            android:id="@+id/Text"
+            />
+
+        <TextView
+            android:text="30min"
+            android:layout_width="45dp"
+            android:layout_height="20dp"
+            android:gravity="center"
+            android:background="@drawable/bluestyle"
+            android:textColor="@color/textView2"
+            android:layout_marginTop="123dp"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/textView30min"
+            />
+
+        <TextView
+            android:text="60min"
+            android:layout_width="45dp"
+            android:layout_height="20dp"
+            android:gravity="center"
+            android:background="@drawable/bluestyle"
+            android:textColor="@color/textView2"
+            android:layout_marginTop="123dp"
+            android:layout_marginLeft="80dp"
+            android:id="@+id/textView60min"
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/closeImage"
+            app:srcCompat="@drawable/closepicture"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="130dp"
+
+
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/returnpicture"
+            android:id="@+id/returnImage"
+            android:layout_marginTop="125dp"
+            android:layout_marginLeft="125dp"
+            />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="100dp"
+            android:layout_height="5dp"
+            android:progressDrawable="@drawable/progressbarstudy"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="110dp"
+            android:max="100"
+            android:visibility="gone"
+            android:id="@+id/workProgressbar"
+
+            />
+
+        <TextView
+            android:text="终止打工"
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:gravity="center"
+            android:background="@drawable/bluestyle"
+            android:textColor="@color/textView2"
+            android:layout_marginTop="123dp"
+            android:layout_marginLeft="45dp"
+            android:id="@+id/stopWork"
+            android:visibility="gone"
+            />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/smallwork"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="1dp"
+            android:id="@+id/smallwork"
+            android:alpha="0.8"
+
+            />
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

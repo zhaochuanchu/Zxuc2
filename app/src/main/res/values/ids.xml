@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="food1" type="id"/>
+    <item name="food2" type="id"/>
+    <item name="food3" type="id"/>
+    <item name="food4" type="id"/>
+    <item name="food5" type="id"/>
+    <item name="food6" type="id"/>
+    <item name="food7" type="id"/>
+    <item name="food8" type="id"/>
+    <item name="food9" type="id"/>
+
+    <item name="book1" type="id"/>
+    <item name="book2" type="id"/>
+    <item name="book3" type="id"/>
+    <item name="book4" type="id"/>
+    <item name="book5" type="id"/>
+    <item name="book6" type="id"/>
+    <item name="book7" type="id"/>
+    <item name="book8" type="id"/>
+    <item name="book9" type="id"/>
+
+</resources>

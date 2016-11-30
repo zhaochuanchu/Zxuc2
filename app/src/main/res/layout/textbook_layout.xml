@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/bg"
+            android:id="@+id/bgImage"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+
+            />
+        <TextView
+            android:text="临时记事本"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:textColor="@color/textView2"
+            />
+        <EditText
+            android:layout_width="130dp"
+            android:layout_height="110dp"
+            android:inputType="textMultiLine"
+            android:gravity="top"
+            android:text=""
+            android:scrollbars="vertical"
+            android:id="@+id/saveEditText"
+            android:background="@drawable/editbg2"
+            android:textColor="@drawable/maincontenttextstyle"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/closeImage"
+            app:srcCompat="@drawable/closepicture"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="130dp"
+
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/returnpicture"
+            android:id="@+id/returnImage"
+            android:layout_marginTop="125dp"
+            android:layout_marginLeft="125dp"
+            />
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

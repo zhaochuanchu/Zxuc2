@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/bg"
+            android:id="@+id/bgDictionary"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            />
+
+        <EditText
+            android:layout_width="130dp"
+            android:layout_height="20dp"
+            android:inputType="text"
+            android:text=""
+            android:maxLength="13"
+            android:id="@+id/inputEditText"
+            android:background="@drawable/editbg"
+            android:textColor="@drawable/maincontenttextstyle"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="2dp"
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/closeImage"
+            app:srcCompat="@drawable/closepicture"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="130dp"
+
+
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/returnpicture"
+            android:id="@+id/returnImage"
+            android:layout_marginTop="125dp"
+            android:layout_marginLeft="125dp"
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/search"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="110dp"
+            android:id="@+id/translateImage"
+            />
+
+        <TextView
+            android:text="翻译内容"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:id="@+id/resultTextView"
+            android:background="@drawable/mainbgstyle"
+            android:gravity="center"
+            android:layout_below="@+id/closeImage"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="5dp"
+            android:textSize="13sp"
+            android:textColor="@color/textView2"
+            android:maxLines="5"
+            />
+        <TextView
+            android:text="便捷词典"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="45dp"
+            android:textSize="15sp"
+            android:textColor="@color/textView2"
+            />
+
+    </RelativeLayout>
+</LinearLayout>

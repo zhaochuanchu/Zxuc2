@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:weightSum="1">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/bg"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/bgImageView" />
+
+        <TextView
+            android:text="昵称:"
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:id="@+id/nameTextView"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:textColor="@color/textView2"
+            />
+
+        <TextView
+            android:text="智力"
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:id="@+id/intelligenceTextView"
+            android:layout_below="@+id/growNumberTextView"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/textView2"
+
+
+            />
+
+        <TextView
+            android:text="强壮"
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:id="@+id/forceTextView"
+            android:layout_below="@+id/intelligenceTextView"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/textView2"
+            />
+
+        <TextView
+            android:text="心情"
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:id="@+id/moodTextView"
+            android:layout_below="@+id/healthTextView"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/textView2"
+            />
+
+        <TextView
+            android:text="健康"
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:id="@+id/healthTextView"
+            android:layout_below="@+id/forceTextView"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/textView2"
+            />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="100dp"
+            android:layout_height="11dp"
+            android:id="@+id/forceProgressBar"
+
+            android:progressDrawable="@drawable/progressbar4"
+
+            android:layout_toRightOf="@+id/forceTextView"
+            android:layout_below="@+id/intelligenceProgressBar"
+            android:layout_marginTop="6dp"
+
+            android:max="100"
+
+            />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="100dp"
+            android:layout_height="11dp"
+            android:id="@+id/moodProgressBar"
+
+            android:progressDrawable="@drawable/progressbar"
+            android:layout_below="@+id/healthProgressBar"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@+id/moodTextView"
+
+            android:max="10"
+
+            />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="100dp"
+            android:layout_height="11dp"
+            android:id="@+id/healthProgressBar"
+
+            android:progressDrawable="@drawable/progressbar"
+            android:layout_below="@+id/forceProgressBar"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@+id/healthTextView"
+            android:max="100"
+            />
+
+
+        <TextView
+            android:text="666"
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:id="@+id/petMoney"
+            android:layout_below="@+id/petStatus"
+            android:layout_toRightOf="@+id/moneyTextView"
+            android:textColor="@color/textView2"
+
+            />
+
+        <TextView
+            android:text="大马"
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:id="@+id/petName"
+            android:layout_toRightOf="@+id/nameTextView"
+            android:layout_marginTop="0dp"
+            android:textColor="@color/textView2"
+            />
+
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:id="@+id/petTitle"
+            android:layout_toRightOf="@+id/petName"
+            android:layout_marginTop="0dp"
+            android:textColor="@color/red"
+            />
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:id="@+id/petTitle2"
+            android:layout_toRightOf="@+id/petTitle"
+            android:layout_marginTop="0dp"
+            android:textColor="@color/green"
+            />
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:id="@+id/petTitle3"
+            android:layout_toRightOf="@+id/petTitle2"
+            android:layout_marginTop="0dp"
+            android:textColor="@color/blue"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:id="@+id/petRankLayout"
+            android:layout_toRightOf="@+id/rankTextView"
+            android:layout_below="@+id/petName"
+            android:layout_marginTop="1dp"
+            />
+
+
+        <TextView
+            android:text="等级:"
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:id="@+id/rankTextView"
+            android:layout_below="@+id/nameTextView"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/textView2"
+            />
+
+        <TextView
+            android:text="铜币:"
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:id="@+id/moneyTextView"
+            android:layout_below="@+id/statusTextView"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/textView2"
+
+            />
+
+        <TextView
+            android:text="状态:"
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:id="@+id/statusTextView"
+            android:layout_below="@+id/moodTextView"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/textView2"
+            />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="100dp"
+            android:layout_height="11dp"
+            android:id="@+id/growNumberProgressBar"
+
+            android:progressDrawable="@drawable/progressbar2"
+
+            android:layout_toRightOf="@+id/growNumberTextView"
+            android:layout_below="@id/petRankLayout"
+            android:layout_marginTop="3dp"
+
+            android:max="100"
+
+            />
+
+        <TextView
+            android:text="成长"
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:id="@+id/growNumberTextView"
+            android:layout_below="@+id/rankTextView"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/textView2"
+
+            />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="100dp"
+            android:layout_height="11dp"
+            android:id="@+id/intelligenceProgressBar"
+
+            android:progressDrawable="@drawable/progressbar3"
+
+            android:layout_toRightOf="@+id/intelligenceTextView"
+            android:layout_below="@+id/growNumberProgressBar"
+            android:layout_marginTop="6dp"
+
+            android:max="100"
+
+            />
+
+        <TextView
+            android:text="无聊中..."
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:id="@+id/petStatus"
+            android:layout_below="@+id/moodProgressBar"
+            android:layout_toRightOf="@+id/statusTextView"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/textView2"
+            />
+
+        <TextView
+            android:text="15/550"
+            android:layout_width="100dp"
+            android:layout_height="17dp"
+            android:id="@+id/petGrowNumber"
+            android:gravity="center"
+            android:layout_alignTop="@+id/growNumberProgressBar"
+            android:layout_toRightOf="@+id/growNumberTextView"
+            android:layout_below="@id/petRankLayout"
+            android:layout_marginTop="-3dp"
+            android:textColor="@color/textView2"
+            />
+
+        <TextView
+            android:text="15"
+            android:layout_width="100dp"
+            android:layout_height="17dp"
+            android:id="@+id/petIntelligence"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/intelligenceTextView"
+            android:layout_below="@id/petGrowNumber"
+            android:textColor="@color/textView2"
+
+            />
+
+        <TextView
+            android:text="28"
+            android:layout_width="100dp"
+            android:layout_height="17dp"
+            android:id="@+id/petForce"
+            android:gravity="center"
+            android:layout_below="@+id/petIntelligence"
+            android:layout_toRightOf="@+id/forceTextView"
+            android:textColor="@color/textView2"
+            />
+
+        <TextView
+            android:text="100/100"
+            android:layout_width="100dp"
+            android:layout_height="17dp"
+            android:id="@+id/petHealth"
+            android:gravity="center"
+            android:layout_below="@+id/petForce"
+            android:layout_toRightOf="@+id/healthTextView"
+            android:textColor="@color/textView2"
+            />
+
+        <TextView
+            android:text="5/10"
+            android:layout_width="100dp"
+            android:layout_height="17dp"
+            android:id="@+id/petMood"
+            android:gravity="center"
+            android:layout_below="@+id/petHealth"
+            android:layout_toRightOf="@+id/moodTextView"
+            android:textColor="@color/textView2"
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@drawable/closepicture"
+            android:id="@+id/exitImage"
+            />
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/returnpicture"
+            android:id="@+id/returnImage"
+            android:layout_marginTop="125dp"
+            android:layout_marginLeft="125dp"
+            />
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

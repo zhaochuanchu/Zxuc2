@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+
+    <item
+        android:duration="100"
+        android:drawable="@drawable/balloonblast1"/>
+    <item
+        android:duration="100"
+        android:drawable="@drawable/balloonblast2"/>
+    <item
+        android:duration="100"
+        android:drawable="@drawable/balloonblast3"/>
+</animation-list>

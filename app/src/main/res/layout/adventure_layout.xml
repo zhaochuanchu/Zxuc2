@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/bg"
+            android:id="@+id/bgAdventure"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/smalladventure"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="1dp"
+            android:id="@+id/smalladventure"
+            android:alpha="0.8"
+            />
+
+        <TextView
+            android:text="请选择探险地点"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="90dp"
+            android:textColor="@color/textView2"
+            android:id="@+id/Text"
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/closeImage"
+            app:srcCompat="@drawable/closepicture"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="130dp"
+
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/returnpicture"
+            android:id="@+id/returnImage"
+            android:layout_marginTop="125dp"
+            android:layout_marginLeft="125dp"
+            />
+
+        <TextView
+            android:text="森林"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:gravity="center"
+            android:background="@drawable/adventuretextstyle"
+            android:textColor="@color/textView2"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/senlinText"
+            />
+
+        <TextView
+            android:text="火山"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:gravity="center"
+            android:background="@drawable/adventuretextstyle2"
+            android:textColor="@color/textView2"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="55dp"
+            android:id="@+id/huoshanText"
+            />
+
+        <TextView
+            android:text="海洋"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:gravity="center"
+            android:background="@drawable/adventuretextstyle3"
+            android:textColor="@color/textView2"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="105dp"
+            android:id="@+id/haiyangText"
+            />
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="100dp"
+            android:layout_height="5dp"
+            android:progressDrawable="@drawable/progressbarstudy"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="110dp"
+            android:max="100"
+            android:visibility="gone"
+            android:id="@+id/adventureProgressbar"
+            />
+
+
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

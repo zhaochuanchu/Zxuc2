@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/bg"
+            android:id="@+id/bgShop"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/closeImage"
+            app:srcCompat="@drawable/closepicture"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="130dp"
+
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/returnpicture"
+            android:id="@+id/returnImage"
+            android:layout_marginTop="125dp"
+            android:layout_marginLeft="125dp"
+            />
+
+        <TextView
+            android:text="-商店-"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#993366"
+            android:textSize="15dp"
+            />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="1dp"
+            android:id="@+id/bigImageView"
+            />
+        <TextView
+            android:text=""
+            android:layout_width="78dp"
+            android:layout_height="77dp"
+            android:layout_toRightOf="@id/bigImageView"
+            android:layout_marginTop="17dp"
+            android:textColor="#003366"
+            android:id="@+id/bigTextView"
+            android:textSize="12dp"
+            />
+
+        <HorizontalScrollView
+
+            android:orientation="horizontal"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="95dp"
+            android:id="@+id/scollView"
+            android:scrollbars="none"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:id="@+id/scrollLinearLayout"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                >
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <TextView
+            android:text="购买使用"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/maincontentstyle"
+            android:textColor="@drawable/maintextstyle"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/buyIt"
+
+            />
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/icon5condition"
+        android:id="@+id/imageViewcondition"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="2dp"
+        android:alpha="0.8"
+        />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/icon5study"
+        android:id="@+id/imageViewstudy"
+        android:layout_marginTop="2dp"
+        android:alpha="0.8"
+        />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/icon5working"
+        android:id="@+id/imageViewworking"
+        android:layout_marginTop="2dp"
+        android:alpha="0.8"
+        />
+
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/icon5adventure"
+        android:id="@+id/imageViewadventure"
+        android:layout_marginTop="2dp"
+        android:alpha="0.8"
+        />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/icon5shop"
+        android:id="@+id/imageViewshop"
+        android:layout_marginTop="2dp"
+        android:alpha="0.8"
+        />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/icon5dict"
+        android:id="@+id/imageViewdict"
+        android:layout_marginTop="2dp"
+        android:alpha="0.8"
+        />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/icon5textbook"
+        android:id="@+id/imageViewtextbook"
+        android:layout_marginTop="2dp"
+        android:alpha="0.8"
+        />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/closepicture"
+        android:id="@+id/closeImage"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/closebg"
+        android:layout_marginRight="3dp"
+        />
+
+</LinearLayout>
